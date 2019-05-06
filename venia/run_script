@@ -1,0 +1,4 @@
+#!/bin/bash
+cd /pwa-studio
+yarn run build
+yarn run watch:venia

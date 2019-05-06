@@ -1,0 +1,62 @@
+version: "3.7"
+services:
+  web:
+    image: nginx
+    ports:
+      - "80:80"
+    volumes:
+      - ./site.conf:/etc/nginx/conf.d/site.conf
+      - magento_code:/var/www/html
+    links:
+      - php
+    networks:
+      app_net:
+        ipv4_address: 192.168.2.10
+  php:
+    build: ./integrator
+    ports:
+      - "9000:9000"
+    volumes:
+      - magento_code:/var/www/html
+    links:
+      - db
+    env_file:
+      - env
+    networks:
+      app_net:
+        ipv4_address: 192.168.2.11
+  db:
+    image: mysql:5.6
+    volumes:
+      - db-data:/var/lib/mysql/data
+    env_file:
+      - env
+    networks:
+      app_net:
+        ipv4_address: 192.168.2.12
+  venia:
+    build: ./venia
+    command:
+      - /usr/bin/run_venia.sh
+    depends_on:
+      - php
+      - web
+    links:
+      - web
+    ports:
+      - "8080:8080"
+    extra_hosts:
+      - "magento.local:192.168.2.10"
+    networks:
+      app_net:
+        ipv4_address: 192.168.2.13
+volumes:
+  db-data:
+  magento_code:
+
+networks:
+  app_net:
+    ipam:
+      driver: default
+      config:
+        - subnet: "192.168.2.0/24"
