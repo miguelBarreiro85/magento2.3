@@ -1,62 +1,40 @@
 version: "3.7"
 services:
-  web:
-    image: nginx
+  web_magento:
+    build:
+      context: .
+      dockerfile: ./nginx/Dockerfile
     ports:
       - "80:80"
     volumes:
       - ./site.conf:/etc/nginx/conf.d/site.conf
-      - magento_code:/var/www/html
+      - ../magento2:/var/www/
     links:
-      - php
-    networks:
-      app_net:
-        ipv4_address: 192.168.2.10
-  php:
-    build: ./integrator
+      - php_magento
+  php_magento:
+    build:
+      context: .
+      dockerfile: ./integrator/Dockerfile
+      args:
+        - WITH_XDEBUG=true
     ports:
       - "9000:9000"
     volumes:
-      - magento_code:/var/www/html
+      - ../magento2:/var/www/
+      - ./integrator/auferma:/auferma
     links:
-      - db
+      - db_magento
     env_file:
       - env
-    networks:
-      app_net:
-        ipv4_address: 192.168.2.11
-  db:
+  db_magento:
     image: mysql:5.6
     volumes:
-      - db-data:/var/lib/mysql/data
+      - db_magento-data:/var/lib/mysql/data
     env_file:
       - env
-    networks:
-      app_net:
-        ipv4_address: 192.168.2.12
-  venia:
-    build: ./venia
-    command:
-      - /usr/bin/run_venia.sh
-    depends_on:
-      - php
-      - web
-    links:
-      - web
+  adminer:
+    image: adminer
     ports:
-      - "8080:8080"
-    extra_hosts:
-      - "magento.local:192.168.2.10"
-    networks:
-      app_net:
-        ipv4_address: 192.168.2.13
+      - 8080:8080
 volumes:
-  db-data:
-  magento_code:
-
-networks:
-  app_net:
-    ipam:
-      driver: default
-      config:
-        - subnet: "192.168.2.0/24"
+  db_magento-data:

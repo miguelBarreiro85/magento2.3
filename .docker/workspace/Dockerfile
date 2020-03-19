@@ -1,4 +1,4 @@
-ARG TARGET_PHP_VERSION
+ARG TARGET_PHP_VERSION=7.3
 FROM php:${TARGET_PHP_VERSION}-cli
 
 ARG SERVICE_DIR="./workspace"
@@ -15,10 +15,10 @@ RUN /tmp/scripts/set_timezone.sh ${TZ}
 #ARG APP_USER_ID=1000
 #ARG APP_GROUP_ID=1000
 
-ARG APP_USER
-ARG APP_GROUP
-ARG APP_USER_ID
-ARG APP_GROUP_ID
+ARG APP_USER=www-data
+ARG APP_GROUP=www-data
+ARG APP_USER_ID=1000
+ARG APP_GROUP_ID=1000
 
 
 ARG WITH_XDEBUG
@@ -67,28 +67,9 @@ RUN /tmp/scripts/cleanup.sh
 RUN curl -sS https://getcomposer.org/installer | php \
         && mv composer.phar /usr/local/bin/composer
 
-RUN wget https://get.symfony.com/cli/installer -O - | bash
-
-RUN mv /root/.symfony/bin/symfony /usr/local/bin/symfony
-#RUN composer create-project symfony/website-skeleton passatempos
-
-#Ligar/dislagar xdebug#
+#Ligar/desligar xdebug#
 COPY ./.shared/scripts/setXdebugOnOff.sh /usr/bin/
 RUN chmod +x /usr/bin/setXdebugOnOff.sh
-
-#instalar nodejs e yarn
-# Removing /var/lib/apt/lists worked
-
-RUN apt-get update && apt-get install -yq gnupg2
-RUN curl -sL https://deb.nodesource.com/setup_10.x | bash - &&\
-    apt-get update && \
-    apt-get install -y --no-install-recommends nodejs
-
-
-RUN apt remove -y yarn
-RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
-RUN echo "deb https://dl.yarnpkg.com/debian/ stable main" | tee /etc/apt/sources.list.d/yarn.list
-RUN apt-get update && sudo apt-get install -y yarn
 
 CMD /usr/sbin/sshd -D
 ENTRYPOINT ["/bin/docker-entrypoint/resolve-docker-host-ip.sh"]

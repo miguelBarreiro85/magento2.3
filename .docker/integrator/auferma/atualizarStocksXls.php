@@ -6,8 +6,8 @@ use PhpOffice\PhpSpreadsheet\Writer\Csv;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
 
 
-//require_once __DIR__ . '/vendor/autoload.php';
-require_once '/var/www/.composer/vendor/autoload.php';
+require_once __DIR__ . '/vendor/autoload.php';
+//require_once '/var/www/.composer/vendor/autoload.php';
 // Abrir o nosso ficheiro e ver o que a Auferma tem em stock
 $spreadsheetInterno = IOFactory::load("aufermaInterno.xlsx");
 $spreadsheetAuferma = IOFactory::load("aufermaStock.xlsx");
@@ -35,3 +35,5 @@ foreach ($intSheet->getRowIterator() as $iRow) {
 }
 $writer = new Xlsx($spreadsheetInterno);
 $writer->save('aufermaInterno.xlsx');
+$csv_writer = new Csv($spreadsheetInterno);
+$csv_writer->save('aufermaInterno.csv');
