@@ -1,0 +1,2 @@
+*/10 * * * * root /bin/bash /usr/local/bin/sorefoz.sh &> /var/log/sorefoz_cron.log && /bin/bash /usr/local/bin/sorefoz_conv.sh &> /var/log/sorefoz_cron.log
+#empty line

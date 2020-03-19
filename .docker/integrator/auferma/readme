@@ -1,0 +1,4 @@
+Projeto que tem 2 scripts
+
+atualizarStocksXls.php - Script para definir na listagem interna (aufermaCategories.xlsx) a disponibilidade dos produtos
+addNewProducts.php - adiciona à listagem interna os novos produtos (é necessário definir a gama familia e sub familia).

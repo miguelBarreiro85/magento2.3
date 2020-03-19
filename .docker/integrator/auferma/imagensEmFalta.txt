@@ -1,0 +1,272 @@
+2018-09-18T07:12:04+00:00 INFO (6): Batedeira Beko HMM 7350 X  Sem Imagem
+2018-09-18T07:12:05+00:00 INFO (6): Liquidificadora Beko TBN 7802 X  Sem Imagem
+2018-09-18T07:12:07+00:00 INFO (6): Varinha Magica Beko HBS 6700 W  Sem Imagem
+2018-09-18T07:12:08+00:00 INFO (6): Varinha Magica Beko HBS 7750 X  Sem Imagem
+2018-09-18T07:12:08+00:00 INFO (6): Espremedor Citrinos Beko CJB 6100 W  Sem Imagem
+2018-09-18T07:12:08+00:00 INFO (6): Aspirador Beko VCC 5325 AR  Sem Imagem
+2018-09-18T07:12:09+00:00 INFO (6): Aspirador Beko VCC 61602 AD  Sem Imagem
+2018-09-18T07:12:09+00:00 INFO (6): Aspirador Beko VCM 71602 AD  Sem Imagem
+2018-09-18T07:12:09+00:00 INFO (6): Aspirador Beko VCO 42701 AB  Sem Imagem
+2018-09-18T07:12:09+00:00 INFO (6): Aspirador Beko VCO 62602 AB  Sem Imagem
+2018-09-18T07:12:26+00:00 INFO (6): Unidade Interior Hisense AMV-12UX4SA  Sem Imagem
+2018-09-18T07:12:39+00:00 INFO (6): Aparador Multi-funções Grundig MT 1610  Sem Imagem
+2018-09-18T07:13:01+00:00 INFO (6): Rádio Relógio Grundig SonoClock 660  Sem Imagem
+2018-09-18T07:13:08+00:00 INFO (6): Rádio CD/MP3 Grundig RCD 1445 USB Aqua/Silver  Sem Imagem
+2018-09-18T07:13:08+00:00 INFO (6): Rádio CD/MP3 Grundig RCD 1445 USB Blue/Silver  Sem Imagem
+2018-09-18T07:13:24+00:00 INFO (6): Arca Horizontal Hisense FT-130D4AW1  Sem Imagem
+2018-09-18T07:13:24+00:00 INFO (6): Arca Horizontal Hisense FT-267D4AW1  Sem Imagem
+2018-09-18T07:13:24+00:00 INFO (6): Arca Horizontal Hisense FT-325D4AW1  Sem Imagem
+2018-09-18T07:13:25+00:00 INFO (6): Arca Horizontal Hisense FT-403D4AW1  Sem Imagem
+2018-09-18T07:13:25+00:00 INFO (6): Congelador Horizontal Beko HS 210520  Sem Imagem
+2018-09-18T07:13:25+00:00 INFO (6): Congelador Horizontal Beko HS 221520  Sem Imagem
+2018-09-18T07:13:25+00:00 INFO (6): Congelador Horizontal Beko HS 222540  Sem Imagem
+2018-09-18T07:13:26+00:00 INFO (6): Congelador Horizontal Beko HSA 29530  Sem Imagem
+2018-09-18T07:13:26+00:00 INFO (6): Congelador Horizontal Beko HSA 32520  Sem Imagem
+2018-09-18T07:13:26+00:00 INFO (6): Congelador Horizontal Beko HSA 32540 GD  Sem Imagem
+2018-09-18T07:13:26+00:00 INFO (6): Congelador Horizontal Beko HSA 37530  Sem Imagem
+2018-09-18T07:13:26+00:00 INFO (6): Congelador Horizontal Beko HSA 40520  Sem Imagem
+2018-09-18T07:13:27+00:00 INFO (6): Congelador Horizontal Beko HSA 47520  Sem Imagem
+2018-09-18T07:13:27+00:00 INFO (6): Congelador Vert.  Beko RFNE 200E20 W  Sem Imagem
+2018-09-18T07:13:27+00:00 INFO (6): Congelador Vert.  Beko RFNE 270K21 W  Sem Imagem
+2018-09-18T07:13:27+00:00 INFO (6): Congelador Vert.  Beko RFNE 290L21 W  Sem Imagem
+2018-09-18T07:13:28+00:00 INFO (6): Congelador Vert.  Beko RFNE 290L21 X  Sem Imagem
+2018-09-18T07:13:28+00:00 INFO (6): Congelador Vert.  Beko RFNE 312E33 W  Sem Imagem
+2018-09-18T07:13:28+00:00 INFO (6): Congelador Vert.  Beko RFNE 312E33 X  Sem Imagem
+2018-09-18T07:13:28+00:00 INFO (6): Congelador Vert.  Beko RFNE 312K21 W  Sem Imagem
+2018-09-18T07:13:28+00:00 INFO (6): Congelador Vert.  Beko RFNE 312K21 X  Sem Imagem
+2018-09-18T07:13:29+00:00 INFO (6): Congelador Vert. Beko FNE 1072  Sem Imagem
+2018-09-18T07:13:29+00:00 INFO (6): Congelador Vert. Beko FSE 1072  Sem Imagem
+2018-09-18T07:13:33+00:00 INFO (6): Ferro de Caldeira Beko  SGA 7126 P  Sem Imagem
+2018-09-18T07:13:33+00:00 INFO (6): Ferro de engomar Beko  SIM 7124 B  Sem Imagem
+2018-09-18T07:13:34+00:00 INFO (6): Ferro de engomar Beko  SPA 7131 P  Sem Imagem
+2018-09-18T07:13:34+00:00 INFO (6): Ferro de engomar Beko  SPM 7128 P  Sem Imagem
+2018-09-18T07:13:38+00:00 INFO (6): Exaustor Canopy Beko CCB 6487 S  Sem Imagem
+2018-09-18T07:13:38+00:00 INFO (6): Exaustor Chaminé Beko CWB 6441 XN  Sem Imagem
+2018-09-18T07:13:39+00:00 INFO (6): Exaustor Chaminé Beko CWB 7441 X  Sem Imagem
+2018-09-18T07:13:39+00:00 INFO (6): Exaustor Chaminé Beko CWB 9441 XN  Sem Imagem
+2018-09-18T07:13:39+00:00 INFO (6): Exaustor Chaminé Beko HCA 62640 B  Sem Imagem
+2018-09-18T07:13:39+00:00 INFO (6): Exaustor Chaminé Beko HCB 61731 BX  Sem Imagem
+2018-09-18T07:13:40+00:00 INFO (6): Exaustor Chaminé Beko HCB 91731 BX  Sem Imagem
+2018-09-18T07:13:40+00:00 INFO (6): Exaustor Chaminé Beko HCB 91734 BX  Sem Imagem
+2018-09-18T07:13:40+00:00 INFO (6): Exaustor Ilha Beko HCI 91845 BXH  Sem Imagem
+2018-09-18T07:13:40+00:00 INFO (6): Exaustor Telescópico Beko CTB 6250 X  Sem Imagem
+2018-09-18T07:13:41+00:00 INFO (6): Exaustor Telescópico Beko CTB 6406/6407 W  Sem Imagem
+2018-09-18T07:13:41+00:00 INFO (6): Exaustor Telescópico Beko CTB 6407 X  Sem Imagem
+2018-09-18T07:13:41+00:00 INFO (6): Exaustor Telescópico Beko CTB 9407 X  Sem Imagem
+2018-09-18T07:13:41+00:00 INFO (6): Forno Encast. Beko BIC 22000 X  Sem Imagem
+2018-09-18T07:13:42+00:00 INFO (6): Forno Encast. Beko BIE 22101 X  Sem Imagem
+2018-09-18T07:13:42+00:00 INFO (6): Forno Encast. Beko BIE 22300 X  Sem Imagem
+2018-09-18T07:13:42+00:00 INFO (6): Forno Encast. Beko BIE 22301 X  Sem Imagem
+2018-09-18T07:13:42+00:00 INFO (6): Forno Encast. Beko BIE 22302 XD  Sem Imagem
+2018-09-18T07:13:43+00:00 INFO (6): Forno Encast. Beko BIE 24300 B  Sem Imagem
+2018-09-18T07:13:43+00:00 INFO (6): Forno Encast. Beko BIE 24300 W  Sem Imagem
+2018-09-18T07:13:43+00:00 INFO (6): Forno Encast. Beko BIM 24400 BCS  Sem Imagem
+2018-09-18T07:13:43+00:00 INFO (6): Forno Encast. Beko BIM 24400 WCS  Sem Imagem
+2018-09-18T07:13:43+00:00 INFO (6): Forno Encast. Beko BIM 25302 X  Sem Imagem
+2018-09-18T07:13:44+00:00 INFO (6): Forno Encast. Beko BIR 25500 XMS  Sem Imagem
+2018-09-18T07:13:45+00:00 INFO (6): Forno Encast. Beko OIM 24500 W  Sem Imagem
+2018-09-18T07:13:46+00:00 INFO (6): Forno Encast. Beko OIM 25700 X  Sem Imagem
+2018-09-18T07:13:46+00:00 INFO (6): Forno Encast. Beko OIM 25901 X  Sem Imagem
+2018-09-18T07:13:46+00:00 INFO (6): Forno Encast. Beko OIM 39701 X  Sem Imagem
+2018-09-18T07:13:46+00:00 INFO (6): Forno Encast. Grundig GEBM 13001 X  Sem Imagem
+2018-09-18T07:13:47+00:00 INFO (6): Forno Encast. Beko BIE 22300 XP  Sem Imagem
+2018-09-18T07:13:49+00:00 INFO (6): Combinado Int. Beko BCHA 275E3 S  Sem Imagem
+2018-09-18T07:13:49+00:00 INFO (6): Frigorifico Integ. Beko B 1751  Sem Imagem
+2018-09-18T07:13:52+00:00 INFO (6): Frigorifico Integ. Beko BU 1152  Sem Imagem
+2018-09-18T07:13:52+00:00 INFO (6): Frigorifico Integ. Beko RBI 2301  Sem Imagem
+2018-09-18T07:13:52+00:00 INFO (6): Frigorifico Integ. Beko RBI 6301  Sem Imagem
+2018-09-18T07:13:52+00:00 INFO (6): Congelador Vert.  Integ. Beko BU 1201  Sem Imagem
+2018-09-18T07:13:54+00:00 INFO (6): Congelador Vert. Integ. Beko FBI 5850 HCA+  Sem Imagem
+2018-09-18T07:13:54+00:00 INFO (6): Maq.Integ. Beko WMI 81242  Sem Imagem
+2018-09-18T07:13:54+00:00 INFO (6): Maq.Integ. Beko WMI 81442  Sem Imagem
+2018-09-18T07:13:55+00:00 INFO (6): Maquina Lavar e Secar Beko HITV 8733 BO  Sem Imagem
+2018-09-18T07:13:55+00:00 INFO (6): Maq.Louça Integ. Beko DIS 15013  Sem Imagem
+2018-09-18T07:13:55+00:00 INFO (6): Maq.Louça Beko DSN 15420 X  Sem Imagem
+2018-09-18T07:13:55+00:00 INFO (6): Maq.Louça Integ. Beko D 3520 BW  Sem Imagem
+2018-09-18T07:13:56+00:00 INFO (6): Maq.Louça Integ. Beko DIN 26410  Sem Imagem
+2018-09-18T07:13:56+00:00 INFO (6): Maq.Louça Integ. Beko DIN 26421  Sem Imagem
+2018-09-18T07:13:56+00:00 INFO (6): Maq.Louça Integ. Beko DIN 28423  Sem Imagem
+2018-09-18T07:13:57+00:00 INFO (6): Maq.Louça Integ. Beko DSN 6830  Sem Imagem
+2018-09-18T07:13:57+00:00 INFO (6): Placa Encast. Beko HIAG 64223 SX  Sem Imagem
+2018-09-18T07:13:57+00:00 INFO (6): Placa Encast. Beko HIAL 75225 SX  Sem Imagem
+2018-09-18T07:13:57+00:00 INFO (6): Placa Encast. Beko HIAW 64225 SX  Sem Imagem
+2018-09-18T07:13:58+00:00 INFO (6): Placa Encast. Beko HIAW 75225 SL  Sem Imagem
+2018-09-18T07:13:58+00:00 INFO (6): Placa Encast. Beko HIMG 64223 SX  Sem Imagem
+2018-09-18T07:13:58+00:00 INFO (6): Placa Encast. Beko HIZG 64101 SX  Sem Imagem
+2018-09-18T07:13:58+00:00 INFO (6): Placa Encast. Beko HIZG 64110 SX  Sem Imagem
+2018-09-18T07:14:01+00:00 INFO (6): Placa Encast. Beko HII 63400 AT  Sem Imagem
+2018-09-18T07:14:01+00:00 INFO (6): Placa Encast. Beko HII 63403 AT  Sem Imagem
+2018-09-18T07:14:04+00:00 INFO (6): Placa Encast. Beko HII 64500 FHTW  Sem Imagem
+2018-09-18T07:14:04+00:00 INFO (6): Placa Encast. Beko HII 68600 PTX  Sem Imagem
+2018-09-18T07:14:05+00:00 INFO (6): Placa Encast. Grundig GIEI 638370 HF  Sem Imagem
+2018-09-18T07:14:05+00:00 INFO (6): Dominó Encast. Beko HDCC 32200 X  Sem Imagem
+2018-09-18T07:14:06+00:00 INFO (6): Dominó Encast. Beko HDCE 32200 X  Sem Imagem
+2018-09-18T07:14:06+00:00 INFO (6): Dominó Encast. Beko HDMC 32400 TX  Sem Imagem
+2018-09-18T07:14:07+00:00 INFO (6): Dominó Encast. Beko HDMI 32400 DTX  Sem Imagem
+2018-09-18T07:14:07+00:00 INFO (6): Dominó Encast. Beko HDCG 32220 FX  Sem Imagem
+2018-09-18T07:14:09+00:00 INFO (6): Placa Encast. Beko HIC 64403 T  Sem Imagem
+2018-09-18T07:14:10+00:00 INFO (6): Placa Encast. Beko HILG 64120 S  Sem Imagem
+2018-09-18T07:14:10+00:00 INFO (6): Placa Encast. Beko HILL 75222 SL  Sem Imagem
+2018-09-18T07:14:10+00:00 INFO (6): Placa Encast. Beko HILM 64120 S  Sem Imagem
+2018-09-18T07:14:10+00:00 INFO (6): Placa Encast. Beko HILW 64222 S  Sem Imagem
+2018-09-18T07:14:13+00:00 INFO (6): Microondas Encast. Beko  MGB 25332 BG  Sem Imagem
+2018-09-18T07:14:13+00:00 INFO (6): Microondas Encast. Beko  MGB 25333 BG  Sem Imagem
+2018-09-18T07:14:13+00:00 INFO (6): Microondas Encast. Beko  MGB 25333 X  Sem Imagem
+2018-09-18T07:14:14+00:00 INFO (6): Hi-Fi Micro Grundig M 1000 BT  Sem Imagem
+2018-09-18T07:14:14+00:00 INFO (6): Hi-Fi Micro Grundig M 2000 BT  Sem Imagem
+2018-09-18T07:14:14+00:00 INFO (6): Hi-Fi Micro Grundig M 3000 BT  Sem Imagem
+2018-09-18T07:14:22+00:00 INFO (6): Coluna Bluetooth Grundig GSB 150  Sem Imagem
+2018-09-18T07:14:22+00:00 INFO (6): Coluna Bluetooth Grundig GSB 150 Charcoal  Sem Imagem
+2018-09-18T07:14:22+00:00 INFO (6): Coluna Bluetooth Grundig GSB 150 Maia  Sem Imagem
+2018-09-18T07:14:22+00:00 INFO (6): Coluna Bluetooth Grundig GSB 150 Odessa  Sem Imagem
+2018-09-18T07:14:25+00:00 INFO (6): Coluna Bluetooth Grundig GSB 730  Sem Imagem
+2018-09-18T07:14:26+00:00 INFO (6): Esquentador Beko B 250 HB  Sem Imagem
+2018-09-18T07:14:26+00:00 INFO (6): Fogão Vitrocerâmico Beko FSE 67310 GX  Sem Imagem
+2018-09-18T07:14:27+00:00 INFO (6): Fogão Vitrocerâmico Beko FSM 67320 GWS  Sem Imagem
+2018-09-18T07:14:27+00:00 INFO (6): Fogão Vitrocerâmico Beko FSM 67320 GXS  Sem Imagem
+2018-09-18T07:14:27+00:00 INFO (6): Fogão Gás Beko CSG 42009 DW  Sem Imagem
+2018-09-18T07:14:28+00:00 INFO (6): Fogão Gás Beko CSG 62110 DX  Sem Imagem
+2018-09-18T07:14:28+00:00 INFO (6): Fogão Gás Beko FSE 62110 DW  Sem Imagem
+2018-09-18T07:14:28+00:00 INFO (6): Fogão Gás Beko FSG 62000 DWL  Sem Imagem
+2018-09-18T07:14:28+00:00 INFO (6): Fogão Gás Beko FSG 62000 DXL  Sem Imagem
+2018-09-18T07:14:29+00:00 INFO (6): Fogão Gás Beko FSG 62110 DWCS  Sem Imagem
+2018-09-18T07:14:29+00:00 INFO (6): Fogão Gás Beko GM 15121 DX  Sem Imagem
+2018-09-18T07:14:29+00:00 INFO (6): Fogão Gás Beko GM 15310 DB  Sem Imagem
+2018-09-18T07:14:30+00:00 INFO (6): Combinado Beko RCHA 270K20 X  Sem Imagem
+2018-09-18T07:14:30+00:00 INFO (6): Combinado Beko CN 148220  Sem Imagem
+2018-09-18T07:14:30+00:00 INFO (6): Combinado Beko CN 228121  Sem Imagem
+2018-09-18T07:14:30+00:00 INFO (6): Combinado Beko CN 232121  Sem Imagem
+2018-09-18T07:14:31+00:00 INFO (6): Combinado Beko CN 232220  Sem Imagem
+2018-09-18T07:14:31+00:00 INFO (6): Combinado Beko RCNA 320E21 W  Sem Imagem
+2018-09-18T07:14:31+00:00 INFO (6): Combinado Beko RCNA 320E21 X  Sem Imagem
+2018-09-18T07:14:32+00:00 INFO (6): Combinado Beko RCNA 320K20 PT  Sem Imagem
+2018-09-18T07:14:32+00:00 INFO (6): Combinado Beko RCNA 320K20 W  Sem Imagem
+2018-09-18T07:14:32+00:00 INFO (6): Combinado Beko RCNA 320K30 PT  Sem Imagem
+2018-09-18T07:14:32+00:00 INFO (6): Combinado Beko RCNA 320K30 W  Sem Imagem
+2018-09-18T07:14:33+00:00 INFO (6): Combinado Beko RCNA 365E30 ZGB  Sem Imagem
+2018-09-18T07:14:33+00:00 INFO (6): Combinado Beko RCNA 365E31 DZW  Sem Imagem
+2018-09-18T07:14:33+00:00 INFO (6): Combinado Beko RCNE 520E31 DZX  Sem Imagem
+2018-09-18T07:14:34+00:00 INFO (6): Combinado Beko RCNE 520E31 W  Sem Imagem
+2018-09-18T07:14:34+00:00 INFO (6): Combinado Beko RCNE 520E31 ZX  Sem Imagem
+2018-09-18T07:14:34+00:00 INFO (6): Combinado Beko RCSA 330K21 W  Sem Imagem
+2018-09-18T07:14:46+00:00 INFO (6): Combinado Hisense RB371N4EW1  Sem Imagem
+2018-09-18T07:14:46+00:00 INFO (6): Combinado Hisense RB400N4BC3  Sem Imagem
+2018-09-18T07:14:51+00:00 INFO (6): Frigorifico Beko RSSA 290M21 W  Sem Imagem
+2018-09-18T07:14:52+00:00 INFO (6): Frigorifico Beko RSSE 265K20 W  Sem Imagem
+2018-09-18T07:14:52+00:00 INFO (6): Frigorifico Beko RSSE 415M21 W  Sem Imagem
+2018-09-18T07:14:52+00:00 INFO (6): Frigorifico Beko RSSE 415M21 X  Sem Imagem
+2018-09-18T07:14:53+00:00 INFO (6): Frigorífico Beko RSSE 415M23 DW  Sem Imagem
+2018-09-18T07:14:53+00:00 INFO (6): Frigorifico Beko RSSE 445K21 W  Sem Imagem
+2018-09-18T07:14:53+00:00 INFO (6): Frigorifico Beko RSSE 445K21 X  Sem Imagem
+2018-09-18T07:14:53+00:00 INFO (6): Frigorifico Beko SS 132020  Sem Imagem
+2018-09-18T07:14:54+00:00 INFO (6): Frigorifico Beko TSE 1282  Sem Imagem
+2018-09-18T07:14:54+00:00 INFO (6): Frigorifico Beko TSE 1402  Sem Imagem
+2018-09-18T07:15:05+00:00 INFO (6): Frigorifico Beko RSNE 445E33 W  Sem Imagem
+2018-09-18T07:15:05+00:00 INFO (6): Frigorifico Beko RSNE 445E33 X  Sem Imagem
+2018-09-18T07:15:07+00:00 INFO (6): Frigorifico Beko DS 130021  Sem Imagem
+2018-09-18T07:15:08+00:00 INFO (6): Frigorifico Beko DS 141120  Sem Imagem
+2018-09-18T07:15:08+00:00 INFO (6): Frigorifico Beko DSA 240K20 X  Sem Imagem
+2018-09-18T07:15:08+00:00 INFO (6): Frigorifico Beko DSA 28020  Sem Imagem
+2018-09-18T07:15:09+00:00 INFO (6): Frigorifico Beko DSA 28020 S  Sem Imagem
+2018-09-18T07:15:09+00:00 INFO (6): Frigorifico Beko DSA 28021  Sem Imagem
+2018-09-18T07:15:09+00:00 INFO (6): Frigorifico Beko RDSA 240K20 W  Sem Imagem
+2018-09-18T07:15:10+00:00 INFO (6): Frigorifico Beko RDSA 310M20  Sem Imagem
+2018-09-18T07:15:10+00:00 INFO (6): Frigorifico Beko RDSA 310M20 X  Sem Imagem
+2018-09-18T07:15:12+00:00 INFO (6): Frigorifico Hisense RT393D4AW1  Sem Imagem
+2018-09-18T07:15:12+00:00 INFO (6): Frigorifico Beko DN  156720 DX  Sem Imagem
+2018-09-18T07:15:12+00:00 INFO (6): Frigorifico Beko DN 161220 DX  Sem Imagem
+2018-09-18T07:15:13+00:00 INFO (6): Frigorifico Beko RDNE 350K20 W  Sem Imagem
+2018-09-18T07:15:13+00:00 INFO (6): Frigorifico Beko RDNE 455E31 DZW  Sem Imagem
+2018-09-18T07:15:13+00:00 INFO (6): Frigorifico Beko RDNE 455E31 ZX  Sem Imagem
+2018-09-18T07:15:13+00:00 INFO (6): Frigorifico Beko RDNE 455K20 W  Sem Imagem
+2018-09-18T07:15:14+00:00 INFO (6): Frigorifico Beko RDNE 535E31 ZX  Sem Imagem
+2018-09-18T07:15:14+00:00 INFO (6): Frigorifico Beko RDNT 230I20 P  Sem Imagem
+2018-09-18T07:15:14+00:00 INFO (6): Frigorifico Beko RDNT 230I20 W  Sem Imagem
+2018-09-18T07:15:15+00:00 INFO (6): Frigorifico Beko RDNT 270I20 P  Sem Imagem
+2018-09-18T07:15:15+00:00 INFO (6): Frigorifico Beko RDNT 270I20 W  Sem Imagem
+2018-09-18T07:15:17+00:00 INFO (6): Frigorifico SBS Beko GN 1416231 ZX  Sem Imagem
+2018-09-18T07:15:17+00:00 INFO (6): Frigorifico SBS Beko GN 162320 X  Sem Imagem
+2018-09-18T07:15:17+00:00 INFO (6): Frigorifico SBS Beko GN 162420 X  Sem Imagem
+2018-09-18T07:15:18+00:00 INFO (6): Frigorifico SBS Beko GN 162530 X  Sem Imagem
+2018-09-18T07:15:18+00:00 INFO (6): Frigorifico SBS Beko GN 163121 X  Sem Imagem
+2018-09-18T07:15:18+00:00 INFO (6): Frigorifico SBS Beko GN 163220 S  Sem Imagem
+2018-09-18T07:15:19+00:00 INFO (6): Frigorifico SBS Beko GNE 134630 X  Sem Imagem
+2018-09-18T07:15:19+00:00 INFO (6): Frigorifico SBS Beko GNE 60530  DX  Sem Imagem
+2018-09-18T07:15:31+00:00 INFO (6): Frigorifico SBS Hisense RS723N4WB1  Sem Imagem
+2018-09-18T07:15:31+00:00 INFO (6): Frigorifico SBS Hisense RS723N4WC1  Sem Imagem
+2018-09-18T07:15:31+00:00 INFO (6): Maq.Louça Beko DFS 05011 W  Sem Imagem
+2018-09-18T07:15:32+00:00 INFO (6): Maq.Louça Beko DFS 05011 X  Sem Imagem
+2018-09-18T07:15:32+00:00 INFO (6): Maq.Louça Beko DFS 28020 W  Sem Imagem
+2018-09-18T07:15:32+00:00 INFO (6): Maq.Louça Beko DFN 05210 W  Sem Imagem
+2018-09-18T07:15:33+00:00 INFO (6): Maq.Louça Beko DFN 05210 X  Sem Imagem
+2018-09-18T07:15:33+00:00 INFO (6): Maq.Louça Beko DFN 16410 W  Sem Imagem
+2018-09-18T07:15:33+00:00 INFO (6): Maq.Louça Beko DFN 16410 X  Sem Imagem
+2018-09-18T07:15:34+00:00 INFO (6): Maq.Louça Beko DFN 26420 W  Sem Imagem
+2018-09-18T07:15:34+00:00 INFO (6): Maq.Louça Beko DFN 26420 X  Sem Imagem
+2018-09-18T07:15:37+00:00 INFO (6): Maq.Louça Beko DFN 28330 W  Sem Imagem
+2018-09-18T07:15:37+00:00 INFO (6): Maq.Louça Beko DFN 28422 X  Sem Imagem
+2018-09-18T07:15:37+00:00 INFO (6): Maq.Louça Beko DFN 28430 W  Sem Imagem
+2018-09-18T07:15:37+00:00 INFO (6): Maq.Louça Beko DFN 28430 X  Sem Imagem
+2018-09-18T07:15:43+00:00 INFO (6): Maquina Lavar Beko WCC 8502 BWO  Sem Imagem
+2018-09-18T07:15:43+00:00 INFO (6): Maquina Lavar Beko WCV 7612 BWO  Sem Imagem
+2018-09-18T07:15:43+00:00 INFO (6): Maquina Lavar Beko WCV 8512 BWO  Sem Imagem
+2018-09-18T07:15:44+00:00 INFO (6): Maquina Lavar Beko WMB 61021 M  Sem Imagem
+2018-09-18T07:15:44+00:00 INFO (6): Maquina Lavar Beko WMP 11744 XW  Sem Imagem
+2018-09-18T07:15:44+00:00 INFO (6): Maquina Lavar Beko WMY 121444 LB1  Sem Imagem
+2018-09-18T07:15:45+00:00 INFO (6): Maquina Lavar Beko WMY 71083 LMXB2  Sem Imagem
+2018-09-18T07:15:45+00:00 INFO (6): Maquina Lavar Beko WMY 71283 LMXB3  Sem Imagem
+2018-09-18T07:15:45+00:00 INFO (6): Maquina Lavar Beko WMY 71283 PTLMB2  Sem Imagem
+2018-09-18T07:15:46+00:00 INFO (6): Maquina Lavar Beko WMY 81283 LMB3  Sem Imagem
+2018-09-18T07:15:48+00:00 INFO (6): Maquina Lavar Beko WMY 81483 LMB2  Sem Imagem
+2018-09-18T07:15:49+00:00 INFO (6): Maquina Lavar Beko WMY 81483 LMXB3  Sem Imagem
+2018-09-18T07:15:49+00:00 INFO (6): Maquina Lavar Beko WMY 91443 LB1  Sem Imagem
+2018-09-18T07:15:49+00:00 INFO (6): Maquina Lavar Beko WMY 91483 LB3  Sem Imagem
+2018-09-18T07:15:50+00:00 INFO (6): Maquina Lavar Beko WTE 6511 BW  Sem Imagem
+2018-09-18T07:15:50+00:00 INFO (6): Maquina Lavar Beko WTE 7532 BCX  Sem Imagem
+2018-09-18T07:15:50+00:00 INFO (6): Maquina Lavar Beko WTV 8602 XSOX  Sem Imagem
+2018-09-18T07:15:51+00:00 INFO (6): Maquina Lavar Beko WTV 8632 XCX  Sem Imagem
+2018-09-18T07:15:51+00:00 INFO (6): Maquina Lavar Beko WTV 9612 XWO  Sem Imagem
+2018-09-18T07:16:02+00:00 INFO (6): Máquina Roupa Hisense WFDJ7010  Sem Imagem
+2018-09-18T07:16:08+00:00 INFO (6): Maquina Lavar e Secar Beko HTV 8633 XSO  Sem Imagem
+2018-09-18T07:16:08+00:00 INFO (6): Maquina Secar Beko DC 7130  Sem Imagem
+2018-09-18T07:16:08+00:00 INFO (6): Maquina Secar Beko DCU 7230  Sem Imagem
+2018-09-18T07:16:09+00:00 INFO (6): Maquina Secar Beko DCY 8402 XW3  Sem Imagem
+2018-09-18T07:16:09+00:00 INFO (6): Maquina Secar Beko DH 9433 RXO  Sem Imagem
+2018-09-18T07:16:09+00:00 INFO (6): Maquina Secar Beko DHS 7412 PA0  Sem Imagem
+2018-09-18T07:16:10+00:00 INFO (6): Maquina Secar Beko DHS 8312 PA0  Sem Imagem
+2018-09-18T07:16:10+00:00 INFO (6): Maquina Secar Beko DPS 7205 W3  Sem Imagem
+2018-09-18T07:16:10+00:00 INFO (6): Maquina Secar Beko DPS 7405 GB5  Sem Imagem
+2018-09-18T07:16:11+00:00 INFO (6): Maquina Secar Beko DPY 8405 GXB2  Sem Imagem
+2018-09-18T07:16:11+00:00 INFO (6): Maquina Secar Beko DPY 8506 GXB1  Sem Imagem
+2018-09-18T07:16:11+00:00 INFO (6): Maquina Secar Beko DU 9133 PA0  Sem Imagem
+2018-09-18T07:16:12+00:00 INFO (6): Maquina Secar Beko DV 7110  Sem Imagem
+2018-09-18T07:16:12+00:00 INFO (6): Microondas Beko  MGC 20100 W  Sem Imagem
+2018-09-18T07:16:25+00:00 INFO (6): LCD Grundig 28" Vision 4 28 VLE 4500 BF  Sem Imagem
+2018-09-18T07:16:33+00:00 INFO (6): LCD Grundig 32" Vision 6 32 VLE 6730 BP  Sem Imagem
+2018-09-18T07:16:33+00:00 INFO (6): LCD Grundig 32" Vision 6 32 VLE 6735 BP  Sem Imagem
+2018-09-18T07:16:34+00:00 INFO (6): LCD Grundig 40" Vision 4 40 VLE 4520 BF  Sem Imagem
+2018-09-18T07:16:43+00:00 INFO (6): LCD Grundig 43" Vision 6 43 VLE 6730 BP  Sem Imagem
+2018-09-18T07:17:02+00:00 INFO (6): LCD Hisense 55" H55N6800  Sem Imagem
+2018-09-18T07:17:03+00:00 INFO (6): TV 74 cm Beko TVC29S10PFNX 100  Sem Imagem
+2018-09-18T07:17:09+00:00 INFO (6): Exaustor Tradicional Beko CFB 9433 X  Sem Imagem
+2018-09-18T07:17:14+00:00 INFO (6): Congelador Vert.  Beko FNE 19930  Sem Imagem
+2018-09-18T07:17:15+00:00 INFO (6): Frigorifico Integ. Beko LBI  3001  Sem Imagem
+2018-09-18T07:17:15+00:00 INFO (6): Placa Encast. Beko HISW 64222 S  Sem Imagem
+2018-09-18T07:17:15+00:00 INFO (6): Frigorifico SBS Beko GN 163120 X  Sem Imagem
+2018-09-18T07:17:17+00:00 INFO (6): Frigorifico Beko TS 190320  Sem Imagem
+2018-09-18T07:17:17+00:00 INFO (6): Frigorifico Beko TS 190020  Sem Imagem
+2018-09-18T07:17:18+00:00 INFO (6): Congelador Vert. Beko FS 166020  Sem Imagem
+2018-09-18T07:17:18+00:00 INFO (6): Forno Encast. Beko BIM 25400 XMS  Sem Imagem
+2018-09-18T07:17:20+00:00 INFO (6): Forno Encast. Beko BCE 12300 X  Sem Imagem
+2018-09-18T07:17:20+00:00 INFO (6): Forno Encast. Beko BCW 15500 X  Sem Imagem
+2018-09-18T07:17:26+00:00 INFO (6): Combinado Int. Beko BCHA 275K2 S  Sem Imagem
+2018-09-18T07:17:26+00:00 INFO (6): Fogão Gás Beko FSM 62320 DXS  Sem Imagem
+2018-09-18T07:17:28+00:00 INFO (6): Exaustor Chaminé Beko HCA 62640 W  Sem Imagem
+2018-09-18T07:17:29+00:00 INFO (6): Ar Condicionado Hisense Multi (Unid.Ext.) AMW3-24U4SAD1  Sem Imagem
+2018-09-18T07:17:33+00:00 INFO (6): Combinado Beko RCHA 270K20 W  Sem Imagem
+2018-09-18T07:17:33+00:00 INFO (6): Maq.Louça Beko DFN 39431 X  Sem Imagem
+2018-09-18T07:17:34+00:00 INFO (6): Maquina Lavar Beko WMP 8744 XD  Sem Imagem
+2018-09-18T07:17:34+00:00 INFO (6): Maq.Integ. Beko WITV 8712 XW0  Sem Imagem
+2018-09-18T07:17:34+00:00 INFO (6): Placa Encast. Beko HII 64400 AT  Sem Imagem
+2018-09-18T07:18:01+00:00 INFO (6): LCD Grundig 43" Vision 6 43 VLE 6735 BP  Sem Imagem
+

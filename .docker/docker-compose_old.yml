@@ -1,0 +1,54 @@
+version: '3.7'
+
+networks:
+  backend:
+    driver: ${NETWORKS_DRIVER}
+
+services:
+  workspace:
+    image: symfony-reactjs/workspace
+    build:
+      context: .
+      dockerfile: ./workspace/Dockerfile
+      args:
+        - APP_CODE_PATH=${APP_CODE_PATH_CONTAINER}
+        - APP_GROUP=${APP_GROUP}
+        - APP_GROUP_ID=${APP_GROUP_ID}
+        - APP_USER=${APP_USER}
+        - APP_USER_ID=${APP_USER_ID}
+        - TARGET_PHP_VERSION=${PHP_VERSION}
+        - TZ=${TIMEZONE}
+        - WITH_XDEBUG="FALSE"
+    volumes:
+      - ${APP_CODE_PATH_HOST}:${APP_CODE_PATH_CONTAINER}
+    ports:
+      - "${WORKSPACE_HOST_SSH_PORT}:22"
+      - "${HTTP_PORT}:8000"
+      - "${WEBPACK_DEV_SERVER}:8080"
+    networks:
+      - backend
+    environment:
+      - PHP_IDE_CONFIG=serverName=ssh-passatempos
+      - XDEBUG_CONFIG=remote_host=172.17.0.1 remote_port=9000
+
+  mariadb:
+    image: mariadb:10.4
+    volumes:
+      - passatempos:/var/lib/mysql
+    environment:
+      TZ: "UTC"
+      MYSQL_ALLOW_EMPTY_PASSWORD: "no"
+      MYSQL_ROOT_PASSWORD: "rootpwd"
+      MYSQL_USER: 'testuser'
+      MYSQL_PASSWORD: 'testpassword'
+      MYSQL_DATABASE: 'testdb'
+    networks:
+      - backend
+  adminer:
+    image: adminer
+    ports:
+      - 8888:8080
+    networks:
+      - backend
+volumes:
+  passatempos:
