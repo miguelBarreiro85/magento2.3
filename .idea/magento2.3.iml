@@ -306,6 +306,8 @@
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/magento/theme-frontend-blank" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/magento/theme-frontend-luma" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/magento/zendframework1" />
+      <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/markbaker/complex" />
+      <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/markbaker/matrix" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/mikey179/vfsstream" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/monolog/monolog" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/msp/recaptcha" />
@@ -327,6 +329,7 @@
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/phpdocumentor/reflection-docblock" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/phpdocumentor/type-resolver" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/phpmd/phpmd" />
+      <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/phpoffice/phpspreadsheet" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/phpoption/phpoption" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/phpseclib/mcrypt_compat" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/phpseclib/phpseclib" />
@@ -341,6 +344,7 @@
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/psr/container" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/psr/http-message" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/psr/simple-cache" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/ralouphie/getallheaders" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/ramsey/uuid" />
       <excludeFolder url="file://$MODULE_DIR$/magento2/vendor/react/promise" />

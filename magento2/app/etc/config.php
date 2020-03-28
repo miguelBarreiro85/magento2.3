@@ -225,7 +225,6 @@ return [
         'Magento_PaypalReCaptcha' => 1,
         'MSP_TwoFactorAuth' => 1,
         'Mlp_Cli' => 1,
-        'Mlp_Orcamentos' => 1,
         'PixieMedia_ImageCarousel' => 1,
         'Temando_Shipping' => 1,
         'Vertex_Tax' => 1,

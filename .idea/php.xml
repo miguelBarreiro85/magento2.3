@@ -442,6 +442,10 @@
       <path value="$PROJECT_DIR$/magento2/vendor/magento/module-rule" />
       <path value="$PROJECT_DIR$/magento2/vendor/magento/module-theme" />
       <path value="$PROJECT_DIR$/magento2/vendor/magento/module-inventory-shipping" />
+      <path value="$PROJECT_DIR$/magento2/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/magento2/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/magento2/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/magento2/vendor/psr/simple-cache" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

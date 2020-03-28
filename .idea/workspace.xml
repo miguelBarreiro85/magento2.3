@@ -2,36 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa45f91-543c-4465-a330-34847c50879a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/etc/Test.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/etc/crontab.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/.shared/config/php/conf.d/zz-app.ini" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/.shared/config/php/conf.d/zz-app.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/.shared/scripts/install_php_extensions.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/.shared/scripts/install_php_extensions.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/.shared/scripts/install_software.sh" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/.shared/scripts/install_software.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/env" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/integrator/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/integrator/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.docker/integrator/auferma/addNewProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/integrator/auferma/addNewProducts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/integrator/auferma/atualizarStocksXls.php" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/integrator/auferma/atualizarStocksXls.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.docker/integrator/auferma/aufermaInterno.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/integrator/auferma/aufermaInterno.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/nginx/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/nginx/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/site.conf" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/site.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/workspace/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/workspace/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/magento2.3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/magento2.3.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/magento2/app/code" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command/Products.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Helper/Attribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Helper/Attribute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/Controller/Adminhtml/Orcamentos/Index.php" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/Controller/Adminhtml/Orcamentos/Index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/Setup/Patch/Data/AddMobileNumberAttribute.php" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/Setup/Patch/Data/AddMobileNumberAttribute.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/Ui/Component/Listing/Columns/OrcamentosActions.php" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/Ui/Component/Listing/Columns/OrcamentosActions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/Ui/DataProvider/Product/ProductDataProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/Ui/DataProvider/Product/ProductDataProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/etc/adminhtml/menu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/etc/adminhtml/menu.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/etc/adminhtml/routes.xml" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/etc/adminhtml/routes.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/adminhtml/layout/mlporcamentos_orcamentos_index.xml" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/adminhtml/layout/mlporcamentos_orcamentos_index.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/adminhtml/templates/orcamentos.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/adminhtml/templates/orcamentos.phtml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/adminhtml/ui_component/orcamentos_listing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/adminhtml/ui_component/orcamentos_listing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/adminhtml/ui_component/orcamentoscliente_listing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/adminhtml/ui_component/orcamentoscliente_listing.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/frontend/layout/customer_account_create.xml" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/frontend/layout/customer_account_create.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/frontend/templates/add_mobile_number_to_client.phtml" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/view/frontend/templates/add_mobile_number_to_client.phtml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -486,6 +464,10 @@
       <path value="$PROJECT_DIR$/magento2/vendor/magento/module-rule" />
       <path value="$PROJECT_DIR$/magento2/vendor/magento/module-theme" />
       <path value="$PROJECT_DIR$/magento2/vendor/magento/module-inventory-shipping" />
+      <path value="$PROJECT_DIR$/magento2/vendor/phpoffice/phpspreadsheet" />
+      <path value="$PROJECT_DIR$/magento2/vendor/markbaker/complex" />
+      <path value="$PROJECT_DIR$/magento2/vendor/markbaker/matrix" />
+      <path value="$PROJECT_DIR$/magento2/vendor/psr/simple-cache" />
     </include_path>
   </component>
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" />
@@ -495,26 +477,26 @@
     <property name="Constants" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.docker/docker-compose.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.php.debug.servers" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos" />
-      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/auferma" />
-      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command" />
-      <recent name="$PROJECT_DIR$/.docker/integrator/auferma" />
-      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/etc" />
       <recent name="$PROJECT_DIR$/magento2/app/code/Mlp" />
       <recent name="$PROJECT_DIR$/.docker" />
       <recent name="$PROJECT_DIR$/.docker/integrator/scripts" />
       <recent name="$PROJECT_DIR$/integrator" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command" />
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos" />
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/auferma" />
+      <recent name="$PROJECT_DIR$/.docker/integrator/auferma" />
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -616,7 +598,11 @@
       <workItem from="1584038490291" duration="853000" />
       <workItem from="1584112369444" duration="7129000" />
       <workItem from="1584462100427" duration="904000" />
-      <workItem from="1584621022682" duration="1145000" />
+      <workItem from="1584621022682" duration="17389000" />
+      <workItem from="1584708550862" duration="6804000" />
+      <workItem from="1584809929397" duration="28218000" />
+      <workItem from="1585150905587" duration="47934000" />
+      <workItem from="1585407242443" duration="10181000" />
     </task>
     <servers />
   </component>

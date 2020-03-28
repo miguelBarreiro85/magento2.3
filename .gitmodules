@@ -1,3 +1,3 @@
 [submodule "magento2/app/code"]
 	path = magento2/app/code
-	url = https://github.com/miguelBarreiro85/magento2.3.git
+	url = https://github.com/miguelBarreiro85/mlpModules

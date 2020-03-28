@@ -4,6 +4,7 @@ use PhpOffice\PhpSpreadsheet\IOFactory;
 use PhpOffice\PhpSpreadsheet\Spreadsheet;
 use PhpOffice\PhpSpreadsheet\Writer\Csv;
 use PhpOffice\PhpSpreadsheet\Writer\Xlsx;
+
 require_once __DIR__ . '/vendor/autoload.php';
 //require_once '/var/www/.composer/vendor/autoload.php';
 // Abrir o nosso ficheiro e ver o que a Auferma tem em stock
