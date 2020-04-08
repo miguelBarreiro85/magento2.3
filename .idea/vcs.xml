@@ -6,6 +6,7 @@
     <mapping directory="$PROJECT_DIR$/magento/app/code/Mlp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/magento2" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/magento2/app/code" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/magento2/app/code/Mlp" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/magento2/app/code2" vcs="Git" />
   </component>
 </project>

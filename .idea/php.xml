@@ -446,6 +446,36 @@
       <path value="$PROJECT_DIR$/magento2/vendor/markbaker/complex" />
       <path value="$PROJECT_DIR$/magento2/vendor/markbaker/matrix" />
       <path value="$PROJECT_DIR$/magento2/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/magento2/vendor/astock/stock-api-libphp" />
+      <path value="$PROJECT_DIR$/magento2/vendor/dotmailer/dotmailer-magento2-extension-chat" />
+      <path value="$PROJECT_DIR$/magento2/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/magento2/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/magento2/vendor/phpcompatibility/php-compatibility" />
+      <path value="$PROJECT_DIR$/magento2/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/magento2/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/magento2/vendor/csharpru/vault-php" />
+      <path value="$PROJECT_DIR$/magento2/vendor/csharpru/vault-php-guzzle6-transport" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-catalog-customer-graph-ql" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-catalog-cms-graph-ql" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-customer-downloadable-graph-ql" />
+      <path value="$PROJECT_DIR$/magento2/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/magento2/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-client-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-image-admin-ui" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-asset-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-media-gallery-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-asset" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-ims" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-image-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-image" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-media-gallery" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-admin-ui" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-client" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-ims-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/cache/cache" />
+      <path value="$PROJECT_DIR$/magento2/vendor/weew/helpers-array" />
+      <path value="$PROJECT_DIR$/magento2/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/magento2/vendor/vertex/module-address-validation" />
     </include_path>
   </component>
   <component name="PhpInterpreters">

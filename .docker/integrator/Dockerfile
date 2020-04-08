@@ -89,5 +89,6 @@ RUN if [ $WITH_XDEBUG = "true" ] ; then \
         echo "xdebug.remote_autostart=1" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini; \
         echo "xdebug.idekey=PHPSTORM" >> /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini; \
     fi ;
+RUN docker-php-ext-install sockets
 
 EXPOSE 9000

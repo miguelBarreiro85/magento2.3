@@ -27,9 +27,10 @@ services:
     env_file:
       - env
   db_magento:
-    image: mysql:5.6
+    image: mysql:5.7
     volumes:
-      - db_magento-data:/var/lib/mysql/data
+      - db_magento-data:/var/lib/mysql
+      - ./mysql/magento.cnf:/etc/mysql/conf.d/magento.cnf
     env_file:
       - env
   adminer:

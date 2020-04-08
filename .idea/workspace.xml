@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3aa45f91-543c-4465-a330-34847c50879a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.docker/integrator/auferma/addNewProducts.php" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/integrator/auferma/addNewProducts.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.docker/integrator/auferma/aufermaInterno.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/integrator/auferma/aufermaInterno.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitmodules" beforeDir="false" afterPath="$PROJECT_DIR$/.gitmodules" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.docker/mysql/magento.cnf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/docker-compose.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.docker/integrator/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/.docker/integrator/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/magento2.3.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/magento2.3.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/magento2/app/code" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command/Products.php" beforeDir="false" afterPath="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command/Products.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -468,6 +468,36 @@
       <path value="$PROJECT_DIR$/magento2/vendor/markbaker/complex" />
       <path value="$PROJECT_DIR$/magento2/vendor/markbaker/matrix" />
       <path value="$PROJECT_DIR$/magento2/vendor/psr/simple-cache" />
+      <path value="$PROJECT_DIR$/magento2/vendor/astock/stock-api-libphp" />
+      <path value="$PROJECT_DIR$/magento2/vendor/dotmailer/dotmailer-magento2-extension-chat" />
+      <path value="$PROJECT_DIR$/magento2/vendor/doctrine/inflector" />
+      <path value="$PROJECT_DIR$/magento2/vendor/doctrine/cache" />
+      <path value="$PROJECT_DIR$/magento2/vendor/phpcompatibility/php-compatibility" />
+      <path value="$PROJECT_DIR$/magento2/vendor/league/flysystem" />
+      <path value="$PROJECT_DIR$/magento2/vendor/psr/cache" />
+      <path value="$PROJECT_DIR$/magento2/vendor/csharpru/vault-php" />
+      <path value="$PROJECT_DIR$/magento2/vendor/csharpru/vault-php-guzzle6-transport" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-catalog-customer-graph-ql" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-catalog-cms-graph-ql" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-customer-downloadable-graph-ql" />
+      <path value="$PROJECT_DIR$/magento2/vendor/symfony/mime" />
+      <path value="$PROJECT_DIR$/magento2/vendor/symfony/polyfill-intl-idn" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-client-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-image-admin-ui" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-asset-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-media-gallery-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-asset" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-ims" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-image-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-image" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-media-gallery" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-admin-ui" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-stock-client" />
+      <path value="$PROJECT_DIR$/magento2/vendor/magento/module-adobe-ims-api" />
+      <path value="$PROJECT_DIR$/magento2/vendor/cache/cache" />
+      <path value="$PROJECT_DIR$/magento2/vendor/weew/helpers-array" />
+      <path value="$PROJECT_DIR$/magento2/vendor/dealerdirect/phpcodesniffer-composer-installer" />
+      <path value="$PROJECT_DIR$/magento2/vendor/vertex/module-address-validation" />
     </include_path>
   </component>
   <component name="PhpXdebugProxy" ide_key="PHPSTORM" />
@@ -477,26 +507,26 @@
     <property name="Constants" value="false" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Csv" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/etc" />
-      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp" />
-      <recent name="$PROJECT_DIR$/.docker" />
-      <recent name="$PROJECT_DIR$/.docker/integrator/scripts" />
-      <recent name="$PROJECT_DIR$/integrator" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Csv" />
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command/Orima" />
       <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command" />
       <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos" />
       <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/auferma" />
-      <recent name="$PROJECT_DIR$/.docker/integrator/auferma" />
-      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Csv" />
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command" />
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Cli/Console/Command/Orima" />
+      <recent name="$PROJECT_DIR$/magento2/app" />
+      <recent name="$PROJECT_DIR$/magento2/app/code/Mlp/Orcamentos/etc" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -602,7 +632,12 @@
       <workItem from="1584708550862" duration="6804000" />
       <workItem from="1584809929397" duration="28218000" />
       <workItem from="1585150905587" duration="47934000" />
-      <workItem from="1585407242443" duration="10181000" />
+      <workItem from="1585407242443" duration="90824000" />
+      <workItem from="1585925051781" duration="35506000" />
+      <workItem from="1586169308193" duration="728000" />
+      <workItem from="1586171673178" duration="1334000" />
+      <workItem from="1586173353704" duration="36575000" />
+      <workItem from="1586280833359" duration="732000" />
     </task>
     <servers />
   </component>
