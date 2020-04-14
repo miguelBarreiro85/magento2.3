@@ -1,5 +1,8 @@
 {
     "files.autoSave": "onWindowChange",
     "php.suggest.basic": false,
-    "editor.quickSuggestions": { "comments": true },
+    "editor.quickSuggestions": {
+        "comments": true
+    },
+    "csv-preview.separator": ";",
 }
