@@ -1,12 +1,12 @@
 ARG TARGET_PHP_VERSION
 ARG INSTALL_DIR
 
-FROM php:7.3-fpm
+FROM php:7.4-fpm
 
 LABEL maintainer="miguelbarreiro85@gmail.com"
-LABEL php_version="7.2"
-LABEL magento_version="2.3.1"
-LABEL description="Magento 2.3.1 with PHP 7.1"
+LABEL php_version="7.4"
+LABEL magento_version="2.4"
+LABEL description="Magento 2.4 with PHP 7.4"
 
 ENV COMPOSER_HOME /var/www/.composer/
 
@@ -55,8 +55,7 @@ COPY ./.shared/config/php/conf.d/*  /usr/local/etc/php/conf.d/
 ARG APP_CODE_PATH="/var/www/"
 WORKDIR "$APP_CODE_PATH"
 
-RUN curl -sS https://getcomposer.org/installer | php \
-    && mv composer.phar /usr/local/bin/composer
+RUN wget https://getcomposer.org/download/1.10.16/composer.phar && mv composer.phar /usr/local/bin/composer
 COPY ./integrator/auth.json $COMPOSER_HOME
 
 RUN chsh -s /bin/bash www-data

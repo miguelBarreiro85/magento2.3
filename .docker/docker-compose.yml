@@ -4,12 +4,18 @@ services:
     build:
       context: .
       dockerfile: ./nginx/Dockerfile
-    ports:
-      - "80:80"
+    expose:
+      - "80"
     volumes:
-      - ./site.conf:/etc/nginx/conf.d/site.conf
+      - ./nginx/site.conf:/etc/nginx/conf.d/site.conf
       - ../magento2:/var/www/
-    links:
+    environment:
+      - VIRTUAL_HOST=www.mlpbarreiro.com
+    restart: always
+    networks: 
+      - webproxy
+      - magento
+    depends_on: 
       - php_magento
   php_magento:
     build:
@@ -17,25 +23,59 @@ services:
       dockerfile: ./integrator/Dockerfile
       args:
         - WITH_XDEBUG=true
-    ports:
-      - "9000:9000"
+    expose:
+      - "9000"
     volumes:
-      - ../magento2:/var/www/
+      - ../magento2:/var/www/html/
       - ./integrator/auferma:/auferma
-    links:
+    depends_on:
       - db_magento
     env_file:
       - env
+    networks: 
+      - magento
   db_magento:
-    image: mysql:5.7
+    image: mysql:8.0
     volumes:
       - db_magento-data:/var/lib/mysql
-      - ./mysql/magento.cnf:/etc/mysql/conf.d/magento.cnf
+      #- ./mysql/magento.cnf:/etc/mysql/conf.d/magento.cnf
     env_file:
       - env
+    restart: always
   adminer:
     image: adminer
-    ports:
-      - 8080:8080
+    expose:
+      - "8080"
+    networks: 
+      - magento
+    depends_on: 
+      - db_magento
+  es01:
+    image: docker.elastic.co/elasticsearch/elasticsearch:7.6.2
+    container_name: es01
+    environment:
+      - node.name=es01
+      - cluster.name=es-docker-cluster
+      - discovery.type=single-node
+      - bootstrap.memory_lock=true
+      - "ES_JAVA_OPTS=-Xms512m -Xmx512m"
+    ulimits:
+      memlock:
+        soft: -1
+        hard: -1
+    volumes:
+      - data01:/usr/share/elasticsearch/data
+    networks:
+    expose: 
+      - "9200"
+    networks: 
+      - magento
+    depends_on: 
+      - db_magento
 volumes:
   db_magento-data:
+  data01:
+networks: 
+  magento:
+  webproxy: 
+    external: true

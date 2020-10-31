@@ -7,7 +7,7 @@ MYSQL_DATABASE=magento
 MAGENTO_LANGUAGE=en_US
 MAGENTO_TIMEZONE=UTC
 MAGENTO_DEFAULT_CURRENCY=EUR
-MAGENTO_URL=http://magento.local
+MAGENTO_URL=http://mlpbarreiro.com
 MAGENTO_BACKEND_FRONTNAME=admin
 MAGENTO_USE_SECURE=0
 MAGENTO_BASE_URL_SECURE=0
@@ -21,12 +21,12 @@ MAGENTO_ADMIN_PASSWORD=magentorocks1
 
 # Default settings for docker-compose
 # @see https://docs.docker.com/compose/reference/envvars/#compose_file
-COMPOSE_PROJECT_NAME=magento
+COMPOSE_PROJECT_NAME=magento2
 COMPOSE_FILE=docker-compose.yml
 COMPOSE_CONVERT_WINDOWS_PATHS=1
 
 # build
-PHP_VERSION=7.3
+PHP_VERSION=7.4
 TIMEZONE=UTC
 NETWORKS_DRIVER=bridge
 
@@ -35,7 +35,7 @@ APP_USER=www-data
 APP_GROUP=www-data
 APP_USER_ID=1000
 APP_GROUP_ID=1000
-APP_CODE_PATH_HOST=../magento
+APP_CODE_PATH_HOST=../magento2
 APP_CODE_PATH_CONTAINER=/var/www
 
 # required so we can reach the nginx server from other containers via that hostname
@@ -47,5 +47,5 @@ HTTP_PORT=80
 WEBPACK_DEV_SERVER=8080
 
 #xdebug - https://dev.to/brpaz/docker-phpstorm-and-xdebug-the-definitive-guide-14og
-PHP_IDE_CONFIG=serverName=magento.local
+PHP_IDE_CONFIG=serverName=mlpbarreiro.com
 XDEBUG_CONFIG=remote_host=172.17.0.1 remote_port=9001

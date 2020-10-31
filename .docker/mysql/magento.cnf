@@ -13,8 +13,6 @@ table-open-cache                     = 4096
 ## Cache
 table-definition-cache               = 4096
 thread-cache-size                    = 256
-query-cache-size                     = 64M
-query-cache-type                     = 1
 
 ## Per-thread Buffers
 sort-buffer-size                     = 16M
