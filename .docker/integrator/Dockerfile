@@ -52,7 +52,7 @@ COPY ./.shared/config/php/conf.d/*  /usr/local/etc/php/conf.d/
 
 
 # workdir
-ARG APP_CODE_PATH="/var/www/"
+ARG APP_CODE_PATH="/var/www/html"
 WORKDIR "$APP_CODE_PATH"
 
 RUN wget https://getcomposer.org/download/1.10.16/composer.phar && mv composer.phar /usr/local/bin/composer

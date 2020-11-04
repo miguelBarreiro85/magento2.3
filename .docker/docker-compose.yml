@@ -6,11 +6,15 @@ services:
       dockerfile: ./nginx/Dockerfile
     expose:
       - "80"
+    ports: 
+      - "8080:8080"
     volumes:
       - ./nginx/site.conf:/etc/nginx/conf.d/site.conf
-      - ../magento2:/var/www/
+      - ../magento2:/var/www/html/
     environment:
       - VIRTUAL_HOST=www.mlpbarreiro.com
+      - LETSENCRYPT_HOST=www.mlpbarreiro.com
+      - LETSENCRYPT_EMAIL=mlpbarreiro@gmail.com
     restart: always
     networks: 
       - webproxy
@@ -42,7 +46,11 @@ services:
     env_file:
       - env
     restart: always
-  adminer:
+    expose:
+      - "3306"
+    networks: 
+      - magento
+  adminer_magento:
     image: adminer
     expose:
       - "8080"
@@ -50,7 +58,7 @@ services:
       - magento
     depends_on: 
       - db_magento
-  es01:
+  es01_magento:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.6.2
     container_name: es01
     environment:
@@ -64,8 +72,9 @@ services:
         soft: -1
         hard: -1
     volumes:
-      - data01:/usr/share/elasticsearch/data
+      - data_es_01_magento:/usr/share/elasticsearch/data
     networks:
+      - magento
     expose: 
       - "9200"
     networks: 
@@ -74,7 +83,7 @@ services:
       - db_magento
 volumes:
   db_magento-data:
-  data01:
+  data_es_01_magento:
 networks: 
   magento:
   webproxy: 

@@ -7,17 +7,18 @@ MYSQL_DATABASE=magento
 MAGENTO_LANGUAGE=en_US
 MAGENTO_TIMEZONE=UTC
 MAGENTO_DEFAULT_CURRENCY=EUR
-MAGENTO_URL=http://mlpbarreiro.com
+MAGENTO_URL=http://www.mlpbarreiro.com
 MAGENTO_BACKEND_FRONTNAME=admin
-MAGENTO_USE_SECURE=0
-MAGENTO_BASE_URL_SECURE=0
-MAGENTO_USE_SECURE_ADMIN=0
+
 
 MAGENTO_ADMIN_FIRSTNAME=Admin
 MAGENTO_ADMIN_LASTNAME=MyStore
 MAGENTO_ADMIN_EMAIL=amdin@example.com
 MAGENTO_ADMIN_USERNAME=admin
 MAGENTO_ADMIN_PASSWORD=magentorocks1
+
+MAGENTO_ELASTICSEARCH_HOST=es01_magento
+MAGENTO_ELASTICSEARCH_PORT=9200
 
 # Default settings for docker-compose
 # @see https://docs.docker.com/compose/reference/envvars/#compose_file
@@ -36,10 +37,10 @@ APP_GROUP=www-data
 APP_USER_ID=1000
 APP_GROUP_ID=1000
 APP_CODE_PATH_HOST=../magento2
-APP_CODE_PATH_CONTAINER=/var/www
+APP_CODE_PATH_CONTAINER=/var/www/html
 
 # required so we can reach the nginx server from other containers via that hostname
-APP_HOST=docker-magento.local
+APP_HOST=www.mlpbarreiro.com
 
 # workspace
 WORKSPACE_HOST_SSH_PORT=2222
