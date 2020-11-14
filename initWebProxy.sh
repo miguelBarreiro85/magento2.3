@@ -1,0 +1,1 @@
+docker run -d -p 80:80 -v /var/run/docker.sock:/tmp/docker.sock:ro -v /home/miguel/magento2.3/.docker/jwilderProxy:/etc/nginx/vhost.d  --net  webproxy --name webproxy jwilder/nginx-proxy

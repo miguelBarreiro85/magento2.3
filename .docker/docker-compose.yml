@@ -13,8 +13,6 @@ services:
       - ../magento2:/var/www/html/
     environment:
       - VIRTUAL_HOST=www.mlpbarreiro.com
-      - LETSENCRYPT_HOST=www.mlpbarreiro.com
-      - LETSENCRYPT_EMAIL=mlpbarreiro@gmail.com
     restart: always
     networks: 
       - webproxy
@@ -42,7 +40,7 @@ services:
     image: mysql:8.0
     volumes:
       - db_magento-data:/var/lib/mysql
-      #- ./mysql/magento.cnf:/etc/mysql/conf.d/magento.cnf
+      - ./mysql/magento.cnf:/etc/mysql/conf.d/magento.cnf
     env_file:
       - env
     restart: always
