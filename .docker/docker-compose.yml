@@ -58,7 +58,7 @@ services:
       - db_magento
   es01_magento:
     image: docker.elastic.co/elasticsearch/elasticsearch:7.6.2
-    container_name: es01
+    container_name: es01_magento
     environment:
       - node.name=es01
       - cluster.name=es-docker-cluster
