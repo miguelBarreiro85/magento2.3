@@ -5,4 +5,5 @@
         "comments": true
     },
     "csv-preview.separator": ";",
+    "search.useIgnoreFiles": false
 }

@@ -50,14 +50,16 @@ services:
       - magento
   adminer_magento:
     image: adminer
-    expose:
-      - "8080"
+    ports:
+      - "8000:8000"
     networks: 
       - magento
     depends_on: 
       - db_magento
   es01_magento:
-    image: docker.elastic.co/elasticsearch/elasticsearch:7.6.2
+    build: 
+      context: .
+      dockerfile: ./elasticSearch/Dockerfile
     container_name: es01_magento
     environment:
       - node.name=es01
