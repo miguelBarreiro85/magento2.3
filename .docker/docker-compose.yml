@@ -51,9 +51,10 @@ services:
   adminer_magento:
     image: adminer
     ports:
-      - "8000:8000"
+      - "8000:8080"
     networks: 
       - magento
+      - webproxy
     depends_on: 
       - db_magento
   es01_magento:
