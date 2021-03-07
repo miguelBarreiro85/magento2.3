@@ -55,7 +55,7 @@ COPY ./.shared/config/php/conf.d/*  /usr/local/etc/php/conf.d/
 ARG APP_CODE_PATH="/var/www/html"
 WORKDIR "$APP_CODE_PATH"
 
-RUN wget https://getcomposer.org/download/1.10.16/composer.phar && mv composer.phar /usr/local/bin/composer
+RUN wget https://getcomposer.org/composer-2.phar && mv composer-2.phar /usr/local/bin/composer
 COPY ./integrator/auth.json $COMPOSER_HOME
 
 RUN chsh -s /bin/bash www-data
