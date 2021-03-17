@@ -20,10 +20,9 @@ db_backup:
 
 .PHONY: db_restore
 db_restore:
-	cat db_backups/magento.sql | docker exec -i docker_db_magento_1 /usr/bin/mysql -u magento --password=magento magento
+	cat db_backups/contabo.sql | docker exec -i docker_db_magento_1 /usr/bin/mysql -u magento --password=magento magento
 
-.PHONY: db_restore
-db_restore:
-	cat db_backups/magento.sql | docker exec -i docker_db_magento_1 /usr/bin/mysql -u magento --password=magento magento
-
+.PHONY: images_bakcup
+images_bakcup:
+	tar -zcvf images_backup/img_bak.tar.gz --exclude="cache/*" magento2/pub/media/catalog/product/
 
